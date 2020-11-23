@@ -25,7 +25,7 @@ async function getData() {
     			let randomIndex = Math.floor(Math.random() * listSize);
               	let item = json.data.children[randomIndex];
               	let subreddit = item.data.subreddit;
-              	let author = item.data.author_fullname;
+              	let author = item.data.author;
               	let title = item.data.title;
               	let ups = item.data.ups;
 				let message = "<b>Subreddit </b>: " + subreddit + " <b>Author</b>:" + author + " <b>Title</b>:" + title + " <b>Up votes</b>: " + ups;
