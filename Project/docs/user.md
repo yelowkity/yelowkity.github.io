@@ -1,0 +1,5 @@
+USER MANUAL
+In this document we explain the application and its use to our identified stakeholders.
+Our core vision is that each person that needs to find the addresses of shopping centers and their distance to their location they can find this tool in our website. Your stakeholders are the community members that are using services or community centers.  
+In this app we are providing the value to  our stakeholders by providing them with addresses and distances to the desired center. Each and everyone will be able to find their community center and see how far they have to drive to it.
+The user would have to click on the index page where they will be able to see the search window that invites them to enter the desired center name or work center to have a full list of the centers. Once they enter the word the system will filter out all the centers that include desired word (regardless of letters being capital or not) will populate the centers in a separate table in alphabetical order and suggest the distance from each center to the clients computer location. Pages help and about us provide basic information about our system/project.
