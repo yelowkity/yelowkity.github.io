@@ -65,7 +65,7 @@ function showData(list){
 	// }
 	// html += "</ul>";
 	let html = "<table>";
-	html += "<tr><th>Name</th><th>Address</th><th>City</th><th>State</th></tr>"
+	html += "<tr><th>Name</th><th>Address</th><th>City</th><th>State</th><th>Distance from you (miles)</th></tr>"
 
 	if (!list.length) html += "<tr><td>Nothing found.</td></tr>";
 	for (let location of list){ 
@@ -74,13 +74,13 @@ function showData(list){
 		html += `<td>${location.name}</td>
 		<td>${obj.address}</td>
 		<td>${obj.city}</td>
-		<td>${obj.state}</td>`;
+		<td>${obj.state}</td>`
+		if (location.distance)
+			html += `<td>${location.distance}</td>`;
 		html += "</tr>"
 	}
 
 	html += "</table>";
-	console.log(html);
-	console.log(document.getElementById("output"));
 	document.getElementById("output").innerHTML = html;
 }
 
